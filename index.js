@@ -12,4 +12,5 @@ var deleteFromObjectByKey = function(object, key){
   var obj = object
   delete obj[key]
   return obj
+  console.log(obj)
 }
